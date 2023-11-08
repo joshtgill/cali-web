@@ -1,0 +1,121 @@
+* {
+    color: rgb(75, 75, 75);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.main-layout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 815px;
+    font-size: 0;
+    background: rgb(246, 246, 246);
+    border-radius: 10px;
+    padding: 20;
+}
+
+.expression-layout {
+    position: relative;
+    height: 150px;
+    font-size: 50;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 20;
+}
+
+.expression-layout sup {
+    font-size: 35;
+}
+
+.expression-layout h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5;
+    margin-right: 10;
+}
+
+.four-function-layout {
+    float: right;
+    width: 500px;
+    height: 620px;
+    font-size: 0;
+}
+
+.four-function-button {
+    width: 120px;
+    height: 120px;
+    font-size: 40;
+    border: none;
+    border-radius: 50%;
+    margin: 2;
+}
+
+.four-function-button:focus {
+    border: none;
+    outline: none;
+}
+
+.additional-layout {
+    position: relative;
+    float: left;
+    width: 315px;
+    height: 620px;
+    font-size: 0;
+}
+
+.tertiary-layout {
+    position: relative;
+    float: right;
+    width: 104px;
+    height: 620px;
+}
+
+.tertiary-button {
+    width: 100px;
+    height: 100px;
+    font-size: 25;
+    background: rgb(221, 221, 221);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 1.7;
+}
+
+.tertiary-button:active {
+    background: rgb(216, 216, 216);
+}
+
+.number-button {
+    background: rgb(236, 236, 236);
+}
+
+.number-button:active {
+    background: rgb(231, 231, 231);
+}
+
+.operator-button {
+    background: rgb(231, 231, 231);
+}
+
+.operator-button:active {
+    background: rgb(226, 226, 226);
+}
+
+.secondary-button {
+    background: rgb(226, 226, 226);
+}
+
+.secondary-button:active {
+    background: rgb(221, 221, 221);
+}
+
+.equal-button {
+    background: rgb(255, 202, 121);
+}
+
+.equal-button:active {
+    background: rgb(242, 191, 114);
+}
